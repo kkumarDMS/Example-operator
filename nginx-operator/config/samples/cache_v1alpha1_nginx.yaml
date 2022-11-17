@@ -1,0 +1,7 @@
+apiVersion: cache.example.com/v1alpha1
+kind: Nginx
+metadata:
+  name: nginx-sample
+spec:
+  port: 80
+  replicaCount: 1
